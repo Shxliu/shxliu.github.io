@@ -1,10 +1,10 @@
 * {
-	font-size: 100px; font-family: sans-serif;
+	font-size:50px; font-family: sans-serif;
 	box-sizing: border-box;
 }
 
 h1{
-	font-size:300%; color:black; text-align: center;
+	font-size:200%; color:black; text-align: center;
 }
 
 
@@ -20,18 +20,18 @@ h1{
 		overflow: hidden;
 	}
 	.title {
-		width:500px;
+		width:200px;
 		float:right;
 		text-align: center;
 	}
 	#chick{
-		background-color: red;
+		background-color: palevioletred;
 	}
 	#beef{
-		background-color: pink;
+		background-color: firebrick;
 		}
 	#Sushi{
-		background-color: green;
+		background-color:papayawhip;
 	}
 p{
 	clear: both;

@@ -1,0 +1,120 @@
+
+body {
+  font-size: 16px;
+  color: #FFFFEC;
+  background-color: #FFFFEC;
+  font-family: Verdana;
+}
+
+ .container.custom-container {
+      padding: 0 50px;
+    }
+
+.navbar-default{
+	background-color:lightgrey;
+	width: 100%;
+}
+.navbar-brand {
+  padding-top: 10px;
+  font-size:2em;
+}
+
+.navbar-brand  h1 { /* Restaurant name */
+  font-family: verdana, serif;
+  color: #FFFFEC;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+ 
+ hr{
+ 	margin:0px;
+ }
+
+
+.nav a{
+	background-color: white;
+}
+ #navbar-my{
+ 	text-align: center;
+ }
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid grey;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+/* END HEADER */
+
+#contenuto {
+  background-color: grey;
+ 
+  margin-top: 10px;
+}
+
+#menu{
+  text-align: center;
+}
+
+
+#menutitle{
+  color: black;
+}
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 50px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: red;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+}

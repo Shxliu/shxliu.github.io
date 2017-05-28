@@ -1,14 +1,47 @@
-
-body {
-  font-size: 16px;
-  color: #FFFFEC;
-  background-color: #FFFFEC;
-  font-family: Verdana;
+* {
+	font-family: Comic Sans MS;
+	box-sizing: border-box;
 }
 
- .container.custom-container {
-      padding: 0 50px;
-    }
+h1{
+	font-size:2em;
+  font-family: Comic Sans MS;
+   color:black; text-align: center;
+}
+
+	.menu-content {
+		border:10px green;
+		background-color: white;
+    padding:5px;
+	}
+
+  .box{
+    background-color: lightgray;
+  }
+
+
+  .text-center {
+    text-align: center;
+  }
+
+p{
+	clear: both;
+	overflow-wrap: all;
+  padding: 5px;
+  margin: 0px;
+}
+
+
+h2{
+  font-family: Comic Sans MS;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.row{
+	width: 90%
+}
 
 .navbar-default{
 	background-color:lightgrey;
@@ -16,32 +49,30 @@ body {
 }
 .navbar-brand {
   padding-top: 10px;
-  font-size:2em;
+  font-size:1.8em;
 }
 
-.navbar-brand  h1 { /* Restaurant name */
-  font-family: verdana, serif;
-  color: #FFFFEC;
+.navbar-brand { 
+  font-family: Comic Sans MS;
+  color: black;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
   line-height: .75;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
+
  
  hr{
  	margin:0px;
+   color: black;
  }
 
 
 .nav a{
 	background-color: white;
 }
+
  #navbar-my{
  	text-align: center;
  }
@@ -54,12 +85,6 @@ body {
   clear: both;
 }
 /* END HEADER */
-
-#contenuto {
-  background-color: grey;
- 
-  margin-top: 10px;
-}
 
 #menu{
   text-align: center;
